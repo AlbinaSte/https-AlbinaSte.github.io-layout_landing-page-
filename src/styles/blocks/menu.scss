@@ -1,0 +1,46 @@
+.menu {
+position: fixed;
+right: 0;
+left: 0;
+top: 0;
+box-sizing: border-box;
+height: 100vh;
+background-color: #ffffff;
+font-weight: 700;
+text-transform: none;
+opacity: 0;
+pointer-events: none;
+}
+
+.menu__top {
+margin-bottom: 32px;
+}
+.menu__nav {
+margin-bottom: 48px;
+}
+
+.menu__content {
+padding-inline: 20px;
+}
+
+.menu__phone-number {
+display: block;
+margin-bottom: 16px;
+font-size: 16px;
+line-height: 140%;
+color: #1B2129;
+text-decoration: none;
+}
+
+.menu__call-to-order {
+display: block;
+width: fit-content;
+padding-bottom: 4px;
+border-bottom: 1px solid #1B2129;
+
+font-size: 16px;
+line-height: 140%;
+letter-spacing: 2px;
+color: #1B2129;
+text-decoration: none;
+}
